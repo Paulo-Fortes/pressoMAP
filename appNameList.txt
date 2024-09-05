@@ -1,9 +1,10 @@
 Posible names for app/web page
 1. Coff33 Trckr
-Coffe-e
-Coffee Lab
-Coffee House
-Coffee Home
-Coffee Map
-CafeAR
-xPRESSO
+2. Coffe-e
+3. Coffee Lab
+4. Coffee House
+5. Coffee Home
+6. Coffee Map
+7. CafeAR
+8. xPRESSO
+9. pressoMAP (x)
