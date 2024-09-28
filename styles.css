@@ -16,16 +16,16 @@
 
 a:link {
     text-decoration: none;
-    color: #691C00
-    ;
+    color: #DF7704;
 }
+
 
 body {
     background-color: #DAF7FF;    
     background-image:url(splash\ cafe\ 2.png);
-    background-size: 120%;
+    background-size: 1800px;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: inherit;
 }
 
 .frameContenido {
@@ -63,28 +63,91 @@ body {
 
 .listaNav {
     display: flex;
-    width: 100%;
     border-color: #DF7704;
     border-style: solid;
+    width: auto;
     border-width: 1px;
     justify-content: space-between;
+    align-items: center;
     border-radius: 100px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
 }
 
-.elementoLista {
-    display: flex;
-    padding-left: 15px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+ul > li {
+    display: flex;    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: 100%;
-    color: black;
-
 }
 
 nav a:hover{
     background-color: #f0f0f0;
 }
 
+.menuHamburguesa {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    /*backdrop-filter imita el efecto de vidrio*/
+    backdrop-filter: blur(10px);
+    /*garantizo que el menú hamburguesa siempre va a estar por arriba con el z-index 999*/
+    z-index: 999;
+    background-color: #daf7ffa0;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menuHamburguesa li {
+    width: 100%;
+    padding-top: 50px;
+    color: #DF7704;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menuHamburguesa a {
+    width: 100%;
+}
+.iconoHamburguesa {
+    height: 26px;
+    width: 26px;
+}
+
+.iconoCerrar {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    height: 26px;
+    width: 26px;
+}
+
+.botonMenu {
+    display: none;
+}
+
+/*creo los parámetros de responsividad*/
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .botonMenu {
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .menuHamburguesa {
+        width: 100%;
+    }
+}
 

@@ -23,6 +23,16 @@
             <div class="barraNavegacion">
                 <nav>
                     <ul class="listaNav">
+                        <li class="hideOnMobile"><a href="#">Proyecto</a></li>
+                        <li class="hideOnMobile"><a href="#">Comunidad</a></li>
+                        <li class="hideOnMobile"><a href="#">Contacto</a></li>
+                        <li class="botonMenu" onclick=showMenuHamburguesa()><a href="#"><img class="iconoHamburguesa"
+                                    src="/Image Refs/Refs Images/icono hamburguesa.png" alt="icono hamburguesa"></a>
+                        </li>
+                    </ul>
+                    <ul class="menuHamburguesa">
+                        <li><a href="#"><img onclick=hideMenuHamburguesa() class="iconoCerrar"
+                                    src="/Image Refs/Refs Images/iconoCerrar.png" alt=""></a></li>
                         <li class="elementoLista"><a href="#">Proyecto</a></li>
                         <li class="elementoLista"><a href="#">Comunidad</a></li>
                         <li class="elementoLista"><a href="#">Contacto</a></li>
@@ -31,6 +41,21 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+        function showMenuHamburguesa() {
+            const menuHamburguesa = document.querySelector('.menuHamburguesa')
+            menuHamburguesa.style.display = 'flex'
+        }
+
+        function hideMenuHamburguesa() {
+            const menuHamburguesa = document.querySelector('.menuHamburguesa')
+            menuHamburguesa.style.display = 'none'
+        }
+    </script>
+
+
 
 </body>
 
