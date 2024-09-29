@@ -24,9 +24,9 @@ a:link {
 .indexBody {
     background-color: #DAF7FF;    
     background-image:url(splash\ cafe\ 2.png);
-    background-size: cover;
+    background-size: 150%;
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: bottom 100%;
 }
 
 .comunidadBody {
