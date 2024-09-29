@@ -78,13 +78,14 @@ body {
     box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
 }
 
-ul > li {
+li > a {
     display: flex;    
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
+    color: #DF7704;
 }
 
 nav a:hover{
@@ -144,6 +145,7 @@ nav a:hover{
 
 .bentoBox{
     display: flex;
+    margin-top: 5%;
     width: 100%;
     height: 800px;
     border-radius: 1em;
