@@ -21,12 +21,16 @@ a:link {
 }
 
 
-body {
+.indexBody {
     background-color: #DAF7FF;    
     background-image:url(splash\ cafe\ 2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: 50% 100%;
+}
+
+.comunidadBody {
+    background-color: #DAF7FF;
 }
 
 .frameContenido {
@@ -56,6 +60,8 @@ body {
 .logo {
     display: flex;
     height: 70px;
+    cursor: pointer;
+    margin-left: 20px;
 }
 
 .barraNavegacion {
@@ -89,7 +95,8 @@ li > a {
 }
 
 nav a:hover{
-    background-color: #f0f0f0;
+    background-color: #FFEBD0;
+    border-radius: 100px;
 }
 
 .menuHamburguesa {
@@ -125,16 +132,17 @@ nav a:hover{
 .iconoHamburguesa {
     height: 26px;
     width: 26px;
+    cursor: pointer;
 }
 
 .iconoCerrar {
     display: flex;
-    align-items: end;
-    justify-content: center;
-    padding-left: 10px;
-    padding-bottom: 30px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 80%;
     height: 26px;
     width: 26px;
+    cursor: pointer;
 }
 
 .botonMenu {

@@ -8,33 +8,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>pressoMAP</title>
     <link rel="shortcut icon" type="image/ico" href="Image Refs/Refs Images/icono.ico" />
-
-
+    <title>pressoMAP</title>
 </head>
 
-<body>
+<body class="indexBody">
     <div class="frameContenido">
 
         <!-- defino la barra de navegación -->
 
         <div class="encabezado">
-            <div class="logo">
-                <img src="Image Refs/Logos/pressoMAP logo oficial.png" alt="imagen logo presso map">
+            <div>
+                <a href="index.html"><img class="logo" src="Image Refs/Logos/pressoMAP logo oficial.png"
+                        alt="imagen logo presso map"></a>
             </div>
             <div class="barraNavegacion">
                 <nav>
                     <ul class="listaNav">
                         <li class="hideOnMobile"><a href="#">Proyecto</a></li>
-                        <li class="hideOnMobile"><a href="#">Comunidad</a></li>
+                        <li class="hideOnMobile"><a href="/comunidad.html">Comunidad</a></li>
                         <li class="hideOnMobile"><a href="#">Contacto</a></li>
-                        <li class="botonMenu" onclick=showMenuHamburguesa()><a href="#"><img class="iconoHamburguesa"
-                                    src="/Image Refs/Refs Images/icono hamburguesa.png" alt="icono hamburguesa"></a>
+                        <li class="botonMenu" onclick=showMenuHamburguesa()><a href="index.html"><img
+                                    class="iconoHamburguesa" src="/Image Refs/Refs Images/icono hamburguesa.png"
+                                    alt="icono hamburguesa"></a>
                         </li>
                     </ul>
                     <ul class="menuHamburguesa">
-                        <li><img onclick=hideMenuHamburguesa() class="iconoCerrar"
+                        <li class="elementoLista"><img onclick=hideMenuHamburguesa() class="iconoCerrar"
                                 src="/Image Refs/Refs Images/iconoCerrar.png" alt="icono cerrar"></li>
                         <li class="elementoLista"><a href="#">Proyecto</a></li>
                         <li class="elementoLista"><a href="#">Comunidad</a></li>
