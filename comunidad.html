@@ -48,7 +48,14 @@
 
         <div class="contenedorComunidad">
             <div class="lineaSupComunidad">
-                <div class="formularioComunidad"></div>
+                <div class="formularioComunidad">
+                    <form action="" method="get" class="form-example">
+                        <div class="form-example">
+                            <label for="name">Enter your name: </label>
+                            <input type="text" name="name" id="name" required />
+                        </div>
+                    </form>
+                </div>
                 <div class="cajaOculta"></div>
             </div>
             <div class="lineaInfComunidad">
@@ -104,16 +111,8 @@
 
 
 
-<script>
-    function showMenuHamburguesa() {
-        const menuHamburguesa = document.querySelector('.menuHamburguesa')
-        menuHamburguesa.style.display = 'flex'
-    }
+<script src="app.js">
 
-    function hideMenuHamburguesa() {
-        const menuHamburguesa = document.querySelector('.menuHamburguesa')
-        menuHamburguesa.style.display = 'none'
-    }
 </script>
 
 
