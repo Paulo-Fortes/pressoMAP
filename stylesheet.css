@@ -157,7 +157,7 @@ nav a:hover{
     display:flex;
     margin-top: 1%;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     border-radius: 1em;
     padding: 2em;
     gap: 1em;
@@ -194,7 +194,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     gap: 1em;
-    height: 100%;
+    height: 100vh;
 }
 
 .col{
@@ -562,19 +562,31 @@ input:checked + label .description{
 }
 
 .card[for="c1"]{
-    background-image: url(splash\ cafe\ 2.png);
+    background-image: url(/Tarjeta\ Cafe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card[for="c2"]{
-    background-image: url(splash\ cafe\ 2.png);
+    background-image: url(/Tarjeta\ Cafe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card[for="c3"]{
-    background-image: url(splash\ cafe\ 2.png);
+    background-image: url(/Tarjeta\ Cafe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card[for="c4"]{
-    background-image: url(splash\ cafe\ 2.png);
+    background-image: url(/Tarjeta\ Cafe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;;
 }
 
 
